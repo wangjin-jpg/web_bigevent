@@ -25,25 +25,48 @@ body {
 
 .login-box,
 .register-box {
-    margin-top: 16px;
+    margin-top: 15px;
+    font-size: 12px;
 }
 
 .login-box .layui-form-label {
     width: 50px;
     padding: 9px 0px;
-    text-align: center;
+    text-align: right;
 }
 
 .login-box .layui-form-item {
     width: 300px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 }
 
 .layui-input-block {
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 #link-log {
     margin-left: 280px;
 }
+
+.register-box .layui-form-item {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 13px;
+}
+
+.register-box .layui-form-label {
+    width: 50px;
+    padding: 9px 0px;
+    text-align: right;
+}
+
+#link-reg {
+    margin-left: 255px;
+}
+
+
+/* .register-box .layui-input {
+    float: left;
+    margin-left: 50px;
+} */
